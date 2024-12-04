@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Taskt.ai",
+    "version": "1.0",
+    "description": "Create tasks by selecting texts",
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "icon.png",
+        "32": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "permissions": ["notifications","contextMenus", "activeTab", "scripting","storage", "aiLanguageModelOriginTrial"],
+    "trial_tokens" : ["ArZGpnwcYRD1MT0W7EOapo1NqSrykDznLIo6WUMiMb344YJ23treXFYE9oUSIzhLnOokSbKGy9FUzuZYHjFfPwUAAAB4eyJvcmlnaW4iOiJjaHJvbWUtZXh0ZW5zaW9uOi8vZm9nZ2FhbGlsampiaGFrYmJsbWhoZGlvamZtbmdsZWMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElGb3JFeHRlbnNpb24iLCJleHBpcnkiOjE3NjA0ODYzOTl9"]
+}

@@ -1,3 +1,4 @@
+![Taskit.ai Logo](icon.png)
 ## Taskit.ai: A Chrome Extension Powered by Generative AI
 
 **Inspiration:**
@@ -26,13 +27,14 @@ Ever felt overwhelmed by a webpage full of information you need to turn into act
 - **Balancing AI Accuracy:** Striking the right balance between AI-generated tasks accurately reflecting the webpage content and the need for user customization.
 - **Chrome Extension Limitations:** Working within the constraints of Chrome extensions to ensure smooth functionality and data management.
 - **UI/UX Optimization:** Creating a clear and efficient user experience that balances feature-richness with intuitive navigation. 
+- **Keep Alive:** Keeping the background process alive when Gemini is generative the tasks.
 
 **Accomplishments I'm Proud Of:**
 
 - Successfully integrating generative AI to automate task creation from web content.
 - Building a fully functional to-do list app within the Chrome extension framework.
 - Offering users multiple ways to export and utilize their task lists for further action.
-- Keeping the background process alive when Gemini is generative the tasks
+
 
 **What I Learned:**
 
